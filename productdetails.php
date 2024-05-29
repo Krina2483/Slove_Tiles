@@ -113,9 +113,9 @@ function jay($dir) {
             <div class="row">
                 <div class="col-lg-12">
                     <div class="cont text-center">
-                        <h1>Packing Details</h1>
+                        <h1>Product Details</h1>
                         <div class="path">
-                            <a href="#0">Home</a><span>/</span><a href="#0">Information</a><span>/</span><a href="#0" class="active">Packing Details</a>
+                            <a href="#0">Home</a><span>/</span><a href="#0">Products</a><span>/</span><a href="#0" class="active">Product Details</a>
                         </div>
                     </div>
                 </div>
@@ -167,36 +167,34 @@ function jay($dir) {
                 <!-- gallery -->
                 <div class="gallery twsty inf-lit full-width">
                     <!-- gallery item -->
-
-
                     
-                    <div class="items theaters three-column mt-50">
-                        <div class="item-img bg-img" data-background="Images/ImageCollection/PRODUCT/CERAMICTILES01.JPG">
-                            <a href="project-details2.html">
-                                <div class="item-img-overlay"></div>
-                            </a>
-                        </div>
-                        <div class="mt-10">
-                            <h5>Fantastic interior</h5>
-                            <span>Interior Design</span>
-                        </div>
-                    </div>
+                    <hr><div class="col-12 d-flex justify-content-center">ABC</div><hr>
 
-                    <!-- gallery item -->
-                    <div class="items theaters three-column mt-50">
-                        <div class="item-img bg-img" data-background="https://skylarkceramica.com/img/Product_final/WOODEN%20PLANK/200X1200MM/15.jpg">
+                    <div class="items theaters three-column mt-90">
+                        <div class="item-img bg-img" data-background="Images/ImageCollection/PRODUCT/CERAMICTILES01.JPG">
                             <a href="project-details2.html">
                                 <div class="item-img-overlay"></div>
                             </a>
                         </div>
                         <div class="info mt-10">
                             <h5>Fantastic interior</h5>
-                            <span>Interior Design</span>
                         </div>
                     </div>
 
                     <!-- gallery item -->
-                    <div class="items interior three-column mt-50">
+                    <div class="items theaters three-column mt-90">
+                        <div class="item-img bg-img" data-background="Images/ImageCollection/PRODUCT/CERAMICTILES01.JPG">
+                            <a href="project-details2.html">
+                                <div class="item-img-overlay"></div>
+                            </a>
+                        </div>
+                        <div class="info mt-10">
+                            <h5>Fantastic interior</h5>
+                        </div>
+                    </div>
+
+                    <!-- gallery item -->
+                    <div class="items interior three-column mt-90">
                         <div class="item-img bg-img" data-background="Images/ImageCollection/PRODUCT/CERAMICTILES01.JPG">
                             <a href="project-details2.html">
                                 <div class="item-img-overlay valign"></div>
@@ -204,7 +202,6 @@ function jay($dir) {
                         </div>
                         <div class="info mt-10">
                             <h5>Choose Your Dream</h5>
-                            <span>Architecture</span>
                         </div>
                     </div>
 
@@ -217,7 +214,6 @@ function jay($dir) {
                         </div>
                         <div class="info mt-10">
                             <h5>Luxury Villa</h5>
-                            <span>Architecture</span>
                         </div>
                     </div>
 
@@ -230,7 +226,6 @@ function jay($dir) {
                         </div>
                         <div class="info mt-10">
                             <h5>Creative Spaces</h5>
-                            <span>Interior Design</span>
                         </div>
                     </div>
 
@@ -243,7 +238,6 @@ function jay($dir) {
                         </div>
                         <div class="info mt-10">
                             <h5>Choose Your Dream</h5>
-                            <span>Architecture</span>
                         </div>
                     </div>
 
@@ -256,7 +250,6 @@ function jay($dir) {
                         </div>
                         <div class="info mt-10">
                             <h5>Fantastic interior</h5>
-                            <span>Interior Design</span>
                         </div>
                     </div>
 
@@ -269,7 +262,6 @@ function jay($dir) {
                         </div>
                         <div class="info mt-10">
                             <h5>Choose Your Dream</h5>
-                            <span>Architecture</span>
                         </div>
                     </div>
 
@@ -282,7 +274,6 @@ function jay($dir) {
                         </div>
                         <div class="info mt-10">
                             <h5>Luxury Villa</h5>
-                            <span>Architecture</span>
                         </div>
                     </div>
 
@@ -295,7 +286,6 @@ function jay($dir) {
                         </div>
                         <div class="info mt-10">
                             <h5>Creative Spaces</h5>
-                            <span>Interior Design</span>
                         </div>
                     </div>
 
@@ -308,7 +298,6 @@ function jay($dir) {
                         </div>
                         <div class="info mt-10">
                             <h5>Luxury Villa</h5>
-                            <span>Architecture</span>
                         </div>
                     </div>
 
@@ -321,7 +310,6 @@ function jay($dir) {
                         </div>
                         <div class="info mt-10">
                             <h5>Creative Spaces</h5>
-                            <span>Interior Design</span>
                         </div>
                     </div>
                 </div>
