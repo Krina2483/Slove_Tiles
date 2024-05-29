@@ -12,7 +12,7 @@
 /* ----------------------------------------------------------------
 			[ All Css Plugins & Helper Classes File ]
 -----------------------------------------------------------------*/
-
+@import url("plugins/wordtune.a1d43555d.min.css");
 /* == bootstrap == */
 @import url("plugins/bootstrap.min.css");
 
@@ -42,4 +42,4 @@
 @import url("plugins/slick-theme.css");
 
 /* == swiper.min font == */
-@import url("plugins/swiper.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.2.0/css/swiper.min.css");

@@ -1,0 +1,6 @@
+RewriteEngine on
+
+
+RewriteRule ^Home index.html [NC,L]
+
+RewriteRule ^Design/([^/\.]+)/?$  productdetails.php?foldername=$1 [NC,QSA]

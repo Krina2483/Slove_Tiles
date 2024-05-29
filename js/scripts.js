@@ -223,6 +223,16 @@ $(function () {
     });
 
 
+    /* ===============================  flag icon country name  =============================== */
+    $('.object-label').on('click', function () {
+        console.log(123);
+        $('.object-info').css("display", "none");
+        var objectInfo = $(this).find('.object-info');
+        if (objectInfo.length) {
+            objectInfo.css("display", "block");
+            var countryName = objectInfo.find('.object-title').text();
+        } 
+    });
 
     /* ===============================  Var Background image  =============================== */
 
@@ -468,7 +478,9 @@ Pace.on('done', function () {
 
 $(document).ready(function () {
     "use strict";
-
+    if ($(".preloader").length) {
+        $(".preloader").fadeOut();
+      }
     var progressPath = document.querySelector('.progress-wrap path');
     var pathLength = progressPath.getTotalLength();
     progressPath.style.transition = progressPath.style.WebkitTransition = 'none';

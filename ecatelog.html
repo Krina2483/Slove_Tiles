@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/plugins.css">
+
+    <link href="css/twentytwenty.css" rel="stylesheet" type="text/css">
+
+    <!-- Core Style Css -->
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .carddiv {
+            display: flex;
+            flex-direction: column;
+            font-family: "Roboto Condensed", sans-serif;
+            font-weight: normal;
+        }
+
+        .maindiv {
+
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+            padding: 50px;
+            font-family: "Roboto", sans-serif;
+        }
+
+        .card {
+            width: 350px;
+            height: 400px;
+            border-radius: 10px;
+            overflow: hidden;
+            cursor: pointer;
+            color: #000;
+            box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        .card img {
+            position: absolute;
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            opacity: 1;
+            transition: opacity 0.2s ease-out;
+        }
+
+        .card h3 {
+            position: absolute;
+            inset: auto auto 30px 30px;
+            margin: 0;
+            transition: inset 0.3s 0.3s ease-out;
+
+        }
+
+        .carddiv .card h3 {
+            font-family: "Roboto Condensed", sans-serif;
+            font-weight: normal;
+            text-transform: uppercase;
+        }
+
+        .card a {
+            position: absolute;
+            opacity: 0;
+            max-width: 80%;
+            transition: opacity 0.3s ease-out;
+        }
+
+        .card a {
+            inset: auto auto 40px 30px;
+            color: inherit;
+            text-decoration: none;
+        }
+
+        .card:hover h3 {
+            inset: auto auto 180px 30px;
+            transition: inset 0.3s ease-out;
+            color: #ef7f1a;
+        }
+
+        .card:hover a {
+            opacity: 1;
+            transition: opacity 0.5s 0.1s ease-in;
+        }
+
+        .card:hover img {
+            transition: opacity 0.3s ease-in;
+            opacity: 0.7;
+
+        }
+
+        @media (max-width: 768px) {
+            .maindiv {
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- ==================== Start Loading ==================== -->
+
+    <div class="preloader">
+        <div class="preloader__image" style="background-image: url(Images/logo/1716190129302.JPEG);"></div>
+    </div>
+
+    <!-- ==================== End Loading ==================== -->
+
+
+    <!-- ==================== Start progress-scroll-button ==================== -->
+
+    <div class="progress-wrap cursor-pointer">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewbox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"></path>
+        </svg>
+    </div>
+
+    <!-- ==================== End progress-scroll-button ==================== -->
+
+
+    <!-- ==================== Start cursor ==================== -->
+
+    <div class="mouse-cursor cursor-outer"></div>
+    <div class="mouse-cursor cursor-inner"></div>
+
+    <!-- ==================== End cursor ==================== -->
+    <!-- ==================== Start Navbar ==================== -->
+
+    <div id="header"></div>
+
+    <!-- ==================== End Navbar ==================== -->
+<!-- ==================== Start Header ==================== -->
+
+<header class="pages-header bg-img valign parallaxie" data-background="Images/backgrounds/about-bg-2-1.png" style="background-color: black;" data-overlay-dark="5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="cont text-center">
+                    <h1>E-Catalogue                    </h1>
+                    <div class="path">
+                        <a href="#0">Home</a><span>/</span><a href="#0" class="active">E-Catalogue</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- ==================== End Header ==================== -->
+    <!-- ==================== Start Works ==================== -->
+    <div class="row" style="margin-top: 55px;">
+        <div class="carddiv col-md-4 col-lg-3 align-items-center mt-4 mt-4">
+            <div class="card">
+                <img src="Images/ImageCollection/PRODUCT/CERAMICTILES01.jpg" alt="">
+                <div class="card-content">
+                    <a href="#" class="button">
+                        DOWNLOAD
+                    </a>
+                </div>
+            </div>
+            <h5>
+                <a href="#">CERAMIC TILES</a><span class="text-decoration-none text-dark download-btn btn btn-white"><i class="fa fa-download"></i></span>
+            </h5>
+        </div>
+        <div class="carddiv col-md-4 col-lg-3 align-items-center  mt-4">
+            <div class="card">
+                <img src="Images/ImageCollection/PRODUCT/ELEVATION01.jpg" alt="">
+                <div class="card-content">
+                    <a href="#" class="button">
+                        DOWNLOAD
+                    </a>
+                </div>
+            </div>
+            <h5>
+                <a href="#">ELEVATION TILES</a><span class="text-decoration-none text-dark download-btn btn btn-white"><i class="fa fa-download"></i></span>
+            </h5>
+        </div>
+        <div class="carddiv col-md-4 col-lg-3 align-items-center  mt-4">
+            <div class="card">
+                <img src="Images/ImageCollection/PRODUCT/OUTDOOR1.jpg" alt="">
+                <div class="card-content">
+                    <a href="#" class="button">
+                        DOWNLOAD
+                    </a>
+                </div>
+            </div>
+            <h5>
+                <a href="#">OUTDOOR TILES</a><span class="text-decoration-none text-dark download-btn btn btn-white"><i class="fa fa-download"></i></span>
+            </h5>
+        </div>
+        <div class="carddiv col-md-4 col-lg-3 align-items-center  mt-4">
+            <div class="card">
+                <img src="Images/ImageCollection/PRODUCT/PORCELAIN01.jpg" alt="">
+                <div class="card-content">
+                    <a href="#" class="button">
+                        DOWNLOAD
+                    </a>
+                </div>
+            </div>
+            <h5>
+                <a href="#">PORCELAIN TILES</a><span class="text-decoration-none text-dark download-btn btn btn-white"><i class="fa fa-download"></i></span>
+            </h5>
+        </div>
+        <div class="carddiv col-md-4 col-lg-3 align-items-center  mt-4">
+            <div class="card">
+                <img src="Images/ImageCollection/PRODUCT/SLAB01.jpg" alt="">
+                <div class="card-content">
+                    <a href="#" class="button">
+                        DOWNLOAD
+                    </a>
+                </div>
+            </div>
+            <h5>
+                <a href="#">SLAB TILES</a><span class="text-decoration-none text-dark download-btn btn btn-white"><i class="fa fa-download"></i></span>
+            </h5>
+        </div>
+        <div class="carddiv col-md-4 col-lg-3 align-items-center  mt-4">
+            <div class="card">
+                <img src="Images/ImageCollection/PRODUCT/WOODENPLANK01.jpg" alt="">
+                <div class="card-content">
+                    <a href="#" class="button">
+                        DOWNLOAD
+                    </a>
+                </div>
+            </div>
+            <h5>
+                <a href="#">WOODEN TILES</a><span class="text-decoration-none text-dark download-btn btn btn-white"><i class="fa fa-download"></i></span>
+            </H5>
+        </div>
+    </div>
+    <!-- ==================== End Works ==================== -->
+
+    <!-- ==================== Start Footer ==================== -->
+    <div id="footer"></div>
+    <!-- ==================== End Footer ==================== -->
+
+
+    <script src="js/jquery-3.0.0.min.js"></script>
+    <script src="js/jquery-migrate-3.0.0.min.js"></script>
+
+    <!-- plugins -->
+    <script src="js/plugins.js"></script>
+
+    <!-- custom scripts -->
+    <script src="js/scripts.js"></script>
+
+    <!-- Map -->
+    <script src="js/map.js"></script>
+    <script>
+        $(function () {
+            $("#header").load("header.html");
+            $("#footer").load("footer.html");
+        });
+    </script>
+    <!-- google map api -->
+    <script async="" defer=""
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDUU5FZiF5WLFFfgIC1n64Zr0zfpQZjBBg&callback=initMap">
+        </script>
+</body>
+
+</html>
